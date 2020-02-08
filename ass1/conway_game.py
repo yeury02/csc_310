@@ -15,7 +15,7 @@ python lists.
 def get_board_size(rows,cols):
     '''
     get_board_size
-    This function takes in two parameters, 
+    This function takes in two parameters,
     1 - rows: the requested number or rows for output array
     2 - cols: the requested number of columns for the output array
     This function then produces a randomly generated array of spaces
@@ -191,7 +191,7 @@ def display_array(board):
     This function displays the contents a 1d or 2d python list
     that is passed into it.
     '''
-    os.system('cls') #Clear terminal screen
+    os.system('clear') #Clear terminal screen
 
     rows = len(board)
 
