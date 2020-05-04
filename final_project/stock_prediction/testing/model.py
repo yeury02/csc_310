@@ -55,7 +55,7 @@ class Predict(object):
         axis = fig.add_subplot()
         axis.plot(dates, prices)
         axis.plot(dates, pricePredict, c='#5aa9ab')
-        return fig
+        return axis
     
 
     
