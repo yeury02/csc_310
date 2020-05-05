@@ -16,49 +16,32 @@
   </head>
 
   <body>
-    <h1> Stock Prediction</h1>
-    <!-- Default dropup button -->
-    <div class="btn-group">
-        <button type="button" class="btn btn-secondary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-            Select Stock
-        </button>
-        <div class="dropdown-menu">
-            <a class="dropdown-item" href="#">Facebook</a>
-            <a class="dropdown-item" href="#">Apple</a>
-            <a class="dropdown-item" href="#">Tesla</a>
-        </div>
-    </div>
-
-    <!-- Split dropup button -->
-    <div class="btn-group">
-        <button type="button" class="btn btn-secondary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-            Select Interval
-        </button>
-    <div class="dropdown-menu">
-        <!-- Dropdown menu links -->
-        <a class="dropdown-item" href="#"> A Day From Now</a>
-        <a class="dropdown-item" href="#">A Week From Now</a>
-        <a class="dropdown-item" href="#">A Month From Now</a>
-      </div>
-    </div>
-
-    <div class="input-group mb-3">
-        <input type="text" class="form-control" placeholder="Iterations    (Range: 1 - 3000)" aria-label="iterations" aria-describedby="basic-addon2">
-        </div>
-    </div>
-    <div class="input-group mb-3">
-        <input type="text" class="form-control" placeholder="Tolerance    (Range: 0.0005 - 0.8)" aria-label="tolerance" aria-describedby="basic-addon2">
-        </div>
-    </div>
-    <div class="input-group mb-3">
-        <input type="text" class="form-control" placeholder="Layers        (Range: 1 - 500)" aria-label="layers" aria-describedby="basic-addon2">
-        </div>
-    </div>
-
     <div class="container">
-        <div class="center">
-            <input class="btn btn-primary" type="submit" value="Submit">
-        </div>
+        <h1> Stock Prediction </h1>
+        <form action="" method="POST">
+            <div class="form-group">
+                <h5> Ticker: </h5>
+                <input type="text" name="ticker" class="form-control"-control" placeholder="FB = Facebook, AAPl = Apple..." required>
+            </div>
+            <div class="form-group">
+                <h5> Interval: </h5>
+                <input type="text" name="interval" class="form-control"-control" placeholder="Day, Week or Month" required>
+            </div>
+            <div class="form-group"> 
+                <h5> Iterations: </h5>
+                <input type="password" name="iterations" class="form-control"-control" placeholder="Range (1-3000)" required>
+            </div>
+            <div class="form-group"> 
+                <h5> Tolerance: </h5>
+                <input type="tolerance" name="confirm" class="form-control"-control" placeholder="Range (0.0005-0.8)" required>
+            </div>
+            <div class="form-group"> 
+                <h5> Layers: </h5>
+                <input type="layers" name="confirm" class="form-control"-control" placeholder="Range (1-500)" required>
+            </div>
+            <button class="btn btn-primary" type="submit">submit </button>
+
+        </form>
     </div>
 
     <!-- Optional JavaScript -->
