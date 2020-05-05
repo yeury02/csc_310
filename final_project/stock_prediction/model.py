@@ -42,7 +42,7 @@ class Predict(object):
         output = 1
 
         layers = [('F', self.hidden), ('AF', 'tanh'), ('F', self.hidden), ('AF', 'tanh'), ('F', self.hidden), ('AF', 'tanh'), ('F', output)]
-        mlpr = ANNR([input], layers, batchSize = 256, maxIter = self.iterations, tol = self.tolerance, reg = 1e-4, verbose = True)
+        mlpr = ANNR([input], layers, batchSize = 256, maxIter = self.iterations, tol = self.tolerance, reg = 1e-4, verbose = False)
         holdDays = 5
         totalDays = len(dates)
         mlpr.fit(dates[0:(totalDays-holdDays)], prices[0:(totalDays-holdDays)])
