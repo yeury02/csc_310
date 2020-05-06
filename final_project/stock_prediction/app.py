@@ -27,7 +27,7 @@ def plot():
         FigureCanvas(figure).print_png(output)
         return Response(output.getvalue(), mimetype='image/png')
     if request.method == "GET":
-        return redirect(url_for('home'))
+        return redirect(url_for('index'))
 
 
 
