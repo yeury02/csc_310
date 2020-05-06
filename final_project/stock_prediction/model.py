@@ -11,12 +11,7 @@ class Predict(object):
         self.name = name
         
         # Retreive data
-        if interval == "Day":
-            hist = yf.Ticker(name).history(period="2y", interval="1d")
-        if interval == "Week":
-            hist = yf.Ticker(name).history(period="2y", interval="1wk")
-        if interval == "Month":
-            hist = yf.Ticker(name).history(period="2y", interval="1mo")
+        hist = yf.Ticker(name).history(period="2y", interval="1d")
 
         prices = hist["Open"]
         dates = []
