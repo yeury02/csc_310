@@ -26,7 +26,7 @@ pip install -r requirements.txt
 3. Run app.py and go to the URL the program provides. It should be http://127.0.0.1:5000/.
 
 ## How To Use
-![Homepage/Example](/img/Example.jpg)
+![Homepage/Example](Example.jpg)
 To use this program you will need to put in the appropriate information into the form.
 
 Ticker: the ticker name of the stock you want to predict. For example: FB (Facebook), AAPL (Apple), MSFT (Microsoft), and etc.
@@ -40,4 +40,4 @@ Tolerance: the amount of tolerant data we can permit. The closer to 0, the bette
 Layers: the amount of hidden layers the artificial neural network is using to create it's prediction. It has a range of 1-500 to make sure your computer doesn't crash.
 
 When you fill out the form, press submit. When you press submit, your machine will take some time for your prediction to run. Give it some time until it gives a graph that looks like so:
-![Graph](/img/MSFT-Plot.png)
+![Graph](MSFT-Plot.png)
