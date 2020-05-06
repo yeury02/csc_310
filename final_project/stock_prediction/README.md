@@ -1,6 +1,6 @@
 # Stock Ticker Prediction
 ## Description
-Web application that predicts how much a stock will cost in a given estimated time by the user. For instance, if the user wanted to predict how much an Apple stock would be tomorrow, we would use a  prediction model to do that, the user will have a chance to choose which prediction model to use from the options we provide. Might be restricted to only a few stocks.
+Web application that predicts how much a stock will cost in a given estimated time by the user. For instance, if the user wanted to predict how much an Apple stock would be tomorrow, we would use a  prediction model to do that.
 
 ## Roles and Accomplishments
 ### Yeury and Hennjer
