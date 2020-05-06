@@ -24,6 +24,9 @@ conda activate stock-prediction
 pip install -r requirements.txt
 ```
 3. Run app.py and go to the URL the program provides. It should be http://127.0.0.1:5000/.
+```
+python app.py
+```
 
 ## How To Use
 ![Homepage/Example](Example.jpg)
